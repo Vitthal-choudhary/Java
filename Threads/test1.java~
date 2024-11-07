@@ -1,0 +1,13 @@
+/*
+In Java, Threads can be created by extending Thread class or implementing Runnable interface.
+*/
+package Threads;
+
+public class test1 extends Thread{
+    public void run(){
+        while (true){
+            System.out.println("Thread is running");
+            System.out.println("I am happy to be a thread");
+        }
+    }
+}
